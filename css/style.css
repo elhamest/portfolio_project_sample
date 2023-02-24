@@ -1,9 +1,41 @@
 h1 {
   font-family: "Playfair Display", serif;
   font-weight: bold;
+  font-size: 96px;
+  line-height: 115px;
 }
 
-p {
+h2,
+p,
+.contact-button-link {
   font-family: "Poppins", sans-serif;
+}
+
+h2 {
+  margin-bottom: 48px;
+  font-size: 24px;
   font-weight: normal;
+}
+
+.hero p {
+  font-size: 36px;
+  font-weight: bold;
+  color: #272142;
+  margin: 0;
+}
+
+.hero {
+  text-align: center;
+  background: #f9f7fe;
+  padding: 160px 0;
+}
+
+.contact-button-link {
+  display: inline-block;
+  padding: 15px 30px;
+  background: #6c63ff;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
 }
