@@ -85,6 +85,23 @@ p {
   margin: 100px 30px;
 }
 
+.about-section {
+  padding: 160px 20px;
+}
+
+.about-section h1 {
+  font-size: 64px;
+}
+
+.about-section h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+
+.about-content {
+  padding: 10px 30px;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
@@ -98,6 +115,19 @@ p {
   }
   .project-description {
     padding: 0;
+    text-align: center;
+  }
+  .about-section {
+    padding: 20px 10px;
+  }
+  .about-section h1 {
+    font-size: 64px;
+    line-height: 80px;
+  }
+  .about-section h2 {
+    margin-bottom: 20px;
+  }
+  .about-content {
     text-align: center;
   }
 }
