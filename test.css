@@ -80,10 +80,10 @@ p {
 }
 
 .content {
-  padding: 30px;
+  margin: 30px;
 }
 
-.button-branding {
+.btn-branding {
   background: var(--branding-color);
   border-radius: 4px;
   color: white;
@@ -92,25 +92,17 @@ p {
   padding: 15px 30px;
 }
 
-.button-branding:hover {
-  background: var(--branding-color);
-}
-
-.button-branding-outline {
+.btn-branding-outline {
+  color: var(--branding-color);
   border: 1px solid var(--branding-color);
   border-radius: 4px;
-  color: var(--branding-color);
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
 }
 
-.button-branding-outline:hover {
-  border: 1px solid var(--branding-color);
-}
-
-.project-content {
-  margin: 120px 60px;
+.project-desciption {
+  padding: 120px 60px;
 }
 
 .logo {
@@ -118,22 +110,19 @@ p {
 }
 
 nav {
-  display: flex;
-  justify-content: space-between;
-  /*margin-top: 10px;*/
   padding: 20px 0;
 }
 
 nav ul {
-  margin: 0;
   padding: 0;
+  margin: 0;
 }
 
 nav li {
-  list-style: none;
   display: inline;
-  margin: 0 15px 0;
-  line-height: 45px;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
 }
 
 nav a {
@@ -142,7 +131,7 @@ nav a {
   transition: all 100ms ease-in-out;
 }
 
-nav li a:hover,
+nav a:hover,
 nav li.active a {
   color: var(--branding-color);
 }
@@ -150,7 +139,7 @@ nav li.active a {
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
-    line-height: 2;
+    line-height: 56px;
   }
   h2 {
     font-size: 44px;
@@ -158,11 +147,11 @@ nav li.active a {
   .hero {
     padding: 80px 20px;
   }
-  .content-container {
+  .content {
     text-align: center;
     padding: 0;
   }
-  .project-description {
+  .project-desciption {
     padding: 0;
     text-align: center;
   }
