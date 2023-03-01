@@ -38,7 +38,7 @@ p {
 .hero {
   background: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 
 .hero p {
@@ -56,7 +56,7 @@ p {
 }
 
 .content-container {
-  padding: 120px 20px;
+  padding: 60px 20px;
 }
 
 .content h1 {
@@ -207,9 +207,6 @@ footer .social-link a:hover {
   }
   h4 {
     font-size: 26px;
-  }
-  .hero {
-    padding: 80px 20px;
   }
   .content-container {
     text-align: center;
